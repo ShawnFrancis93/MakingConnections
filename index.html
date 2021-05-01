@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href ="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="nav">
+                <ul class="navleft">
+                    <li class="profile">Profile</li>
+                    <li>Home</li>
+                    <li>My Profile</li>
+                    <li>Find connections</li>
+                </ul>
+                <div class="navright">
+                <button>Sign Out</button>
+                </div>
+            </div>
+        </div>
+        <div class="content1">
+            <div class="profile-card">
+                <div class="topstripe">
+                    <img class="usercircle"src="1616785606__user-icons\icons\user-circle.png"> 
+                </div>
+                <div class="botstripe">
+                    <h1 id="name">Shawn Francis</h1>
+                    <h3><img class="marker" src="1616785606__user-icons\icons\map-marker.png" >Syracuse, NY</h3>
+                    <h4 class="lines">Developer|Problem Solver|Designated Tank</h4>
+                    <h4 class="lines">Master of the my room and nothing else!</h4>
+                    
+                    <a id="link"href="#" onclick="nameswap(this)" name="name">
+                        <img id="gear"src="1616785606__user-icons\icons\gear.png">edit profile
+                    </a>
+                </div>
+            </div>
+            <div class="freqs">
+                <div class="header">
+                    <button class="rnumber notis">2</button>
+                    <h4>Connection Requests</h4>
+                </div>
+                <div class="persons">
+                        <div id="decision">
+                        <img src="1614265160__images\images\todd-s.jpg"><h4>Todd E</h4>
+                        <img id="appden1" src="1614282895__icons\icons\accept-circle.png" onclick="removePerson(this)" name2="decision">
+                        <img id="appden1" src="1614282895__icons\icons\close-circle.png" onclick="removePerson(this)" name2="decision">
+                        </div>
+                        <div id="decision2">
+                        <img src="1616785606__user-icons\icons\user-circle.png"><h4>Phil K</h4>
+                        <img id="appden2" src="1614282895__icons\icons\accept-circle.png" onclick="removePerson(this)" name2="decision2">
+                        <img id="appden2" src="1614282895__icons\icons\close-circle.png" onclick="removePerson(this)" name2="decision2">
+                        </div>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="content2">
+            <div class="schooling">
+                <div class="header2"><h4>Education</h4>
+                </div>
+                    <div class="specifics">
+                        <h4>Coding Dojo- Full Stack Bootcamp</h4>
+                        <h5>April 2021 - July 2021</h5>
+                        <h4>Triple black belt in ___</h4>
+                    </div>
+            </div>
+            <div class="connects">
+                <div class="header"><button class="cnumber">500+</button><h4>Your Connections</h4>
+                </div>
+                <div class="mightknow">
+                    <h4><img src="1616785606__user-icons\icons\user-circle.png">Todd E</h4>
+                    <h4><img src="1616785606__user-icons\icons\user-circle.png">Phil K</h4>
+                    <h4><img src="1616785606__user-icons\icons\user-circle.png">Todd E</h4>
+                    <h4><img src="1616785606__user-icons\icons\user-circle.png">Phil K</h4>
+                    <h4 class="more"><a href="#">View More</a></h4>
+                </div>
+            </div>    
+        </div>
+    </div>
+    
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

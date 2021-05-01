@@ -1,0 +1,192 @@
+body{
+    width: 1080px;
+    height:800px;
+}
+.container{
+    font-family:sans-serif;
+    color:black;
+    width: 1053px;
+    
+
+}
+.top{
+    background-color: black;
+
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+
+}
+.navleft{
+    display:flex;
+    margin:0px;
+    padding:15px 20px 10px;
+    align-items: center;
+}
+.navleft li{
+    list-style-type: none;
+    padding-right: 35px;
+    vertical-align: middle;
+}
+Li.profile{
+    font-size:xx-large
+}
+.navright{
+    padding:25px 60px 0px 0px;
+}
+button{
+    padding:3px 5px;
+    background-color:darkcyan;
+    color:white;
+}
+
+.profile-card, .schooling{
+margin: 25px 20px 0px 40px;
+display: inline-block;
+}
+
+.topstripe{
+    background-color:darkcyan;
+    height:90px;
+    width:580px;
+    margin:0px;
+}
+.botstripe{
+    border: 2px solid lightgray;
+    border-top:none;
+    width:557px;
+    margin:0px;
+    padding-top:35px;
+    padding-left:20px;
+    padding-bottom:20px;
+}
+.lines,h1{
+    margin:0px;
+}
+h3{
+    margin:0px;
+    padding-bottom:10px;
+
+}
+
+h3 img{
+    margin-right:4px;
+}
+.usercircle{
+   height: 80px;
+   position:absolute;
+   top:135px;
+   left:80px;
+}
+/* look up first_child */
+.marker{
+    height:15px;
+}
+
+#gear{
+    height:15px;
+    padding-right:8px;
+    margin-top: 5px;
+}
+.freqs{
+    padding-top: 30px;
+    display: inline-block;
+    vertical-align: top ;
+}
+
+
+.header{
+    background-color: rgb(43, 43, 43);
+    color:white;
+    padding:0px;
+    display:flex;
+    align-items: center;
+    height:40px;
+}
+
+.persons{
+    border: 2px solid lightgray;
+    border-top:none;
+    height:130px;
+    width:250px;
+}
+#appden1{
+    position:relative;
+    left:65px;
+    top:10px;
+}
+#appden2{
+    position:relative;
+    left:73px;
+    top:10px;
+}
+#appden1, #appden2{
+    height: 30px;
+}
+
+.schooling{
+    vertical-align: top;
+    width:583px;
+}
+.header2{
+    /* margin: 0px 20px 0px 40px; */
+    background-color: rgb(43, 43, 43);
+    color:white;
+    height: 30px;
+}
+.specifics{
+    border: 2px solid lightgray;
+    border-top:none; 
+    width: 579px;
+    padding-bottom:220px;
+}
+
+.persons img{
+    height: 40px;
+}
+.notis{
+    border-radius: 50px;
+}
+.schooling, .connects{
+    display:inline-block;
+    margin-top:20px;
+}
+
+.rnumber{
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    margin-left:5px
+}
+h1, h4{
+    margin:0px;
+    padding: 4px 10px 5px;
+    display: inline-block;
+}
+h5{
+    margin:0px 0px 10px 10px;
+    color:rgb(151, 151, 151);
+    
+}
+
+.cnumber{
+    border-radius: 50px;    
+    height: 30px;
+    width:60px;
+    margin-left:5px;
+}
+.mightknow{
+    border: 2px solid lightgray;
+    border-top:none; 
+    width: 400px;
+    padding-bottom:220px;
+}
+.mightknow, .mightknow img{
+    height: 40px;
+}
+.more{
+    border-top: 2px solid lightgray;
+    padding-top: 15px;
+}
